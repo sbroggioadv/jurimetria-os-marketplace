@@ -1,0 +1,9 @@
+{
+  "paleta": { "bg": "#101010", "bg_card": "#181818", "accent": "#CCFF00",
+    "texto": "#F2F2F2", "texto_dim": "#8A8A8A",
+    "alta": "#CCFF00", "media": "#FFB020", "baixa": "#FF4D4D", "info": "#5AA9E6" },
+  "tipografia": { "titulos": "uppercase, sans-serif, peso 700, letter-spacing .04em",
+    "corpo": "-apple-system, Helvetica Neue, Arial, sans-serif" },
+  "efeitos": { "glow": "radial lime sutil atras de KPIs centrais" },
+  "marca": "/// JURIMETRIA · IA COMBATIVA"
+}

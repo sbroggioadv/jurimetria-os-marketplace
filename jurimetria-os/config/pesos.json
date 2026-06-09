@@ -1,0 +1,11 @@
+{
+  "descricao": "Pesos e pisos do modelo de calculo (estatistica.py). w_e=empirico, w_j=jurisprudencial, w_f=fatico.",
+  "w_e_base": 0.6,
+  "w_j_complementar": 0.4,
+  "ajuste_fatico_limite": 0.15,
+  "piso_minimo": 30,
+  "piso_robusto": 200,
+  "intervalo_confianca_z": 1.96,
+  "intervalo_confianca_pct": "95%",
+  "nota": "Pesos adaptativos: w_e = w_e_base * min(1, n_com_desfecho/piso_robusto); w_j = 1 - w_e. n < piso_minimo => confianca BAIXA + faixa larga (R-JURI-02)."
+}

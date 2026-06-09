@@ -1,0 +1,13 @@
+{
+  "descricao": "Aliases da API publica DataJud por tribunal. Verificados ao vivo: tjsp, tjrj. Demais conforme wiki oficial (datajud-wiki.cnj.jus.br/api-publica/endpoints/) — fazer smoke-test antes de usar.",
+  "verificados_ao_vivo": ["tjsp", "tjrj"],
+  "aliases": {
+    "TJSP": "tjsp", "TJRJ": "tjrj", "TJMG": "tjmg", "TJRS": "tjrs", "TJPR": "tjpr",
+    "TJSC": "tjsc", "TJBA": "tjba", "TJGO": "tjgo", "TJDFT": "tjdft", "TJPE": "tjpe",
+    "TJCE": "tjce", "TJES": "tjes", "TJMT": "tjmt", "TJMS": "tjms", "TJPA": "tjpa",
+    "STJ": "stj", "TST": "tst", "TSE": "tse", "STM": "stm",
+    "TRF1": "trf1", "TRF2": "trf2", "TRF3": "trf3", "TRF4": "trf4", "TRF5": "trf5", "TRF6": "trf6"
+  },
+  "regra_geral": "TJs estaduais = 'tj' + sigla UF (minusculo). STF pode nao ter alias na API publica.",
+  "fonte_endpoints": "https://datajud-wiki.cnj.jus.br/api-publica/endpoints/"
+}

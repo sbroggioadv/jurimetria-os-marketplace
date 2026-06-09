@@ -1,0 +1,14 @@
+{
+  "SessionStart": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "echo '[jurimetria-os] Plugin ativo. Comando: /jurimetria <demanda>. Motor de jurimetria preditiva: DataJud (CNJ) + jurisprudencia -> percentual de exito com amostra + intervalo de confianca + parecer + dashboard HTML/PDF. Anti-halucinacao: numero sempre com n e IC; zero jurisprudencia inventada. Orquestrador: jurimetria-master. Onboarding: /start-jurimetria (configura chave DataJud).'",
+          "timeout": 5
+        }
+      ]
+    }
+  ]
+}

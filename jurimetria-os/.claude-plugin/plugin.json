@@ -1,0 +1,8 @@
+{
+  "name": "jurimetria-os",
+  "version": "0.1.0",
+  "description": "Motor de jurimetria preditiva para advogados: a partir da descricao de uma demanda, cruza dados empiricos do DataJud (API publica CNJ) com jurisprudencia e produz percentual de exito (procedencia/improcedencia/parcial) com tamanho de amostra e intervalo de confianca declarados, parecer tecnico fundamentado e dashboard visual (HTML + PDF). Motor Python deterministico (cliente Elasticsearch DataJud + parser de movimentos TPU + intervalo de Wilson) com anti-halucinacao por design: nunca reporta numero sem amostra e confianca, nunca inventa jurisprudencia. 9 skills (master, triagem, coleta DataJud, coleta jurisprudencia, motor de calculo, parecer, dashboard, auditoria R1-R4, onboarding). Orquestrador jurimetria-master.",
+  "author": {
+    "name": "IA Combativa"
+  }
+}
